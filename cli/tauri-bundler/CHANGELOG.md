@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.10.0]
+
+-   Append app version and OS architecture on AppImage output filename.
+    -   [ae76c60](https://www.github.com/tauri-apps/tauri/commit/ae76c60a615602fcb8c1dd824a6ad9fa8f48fe69) fix(bundler): appimage paths and filename ([#1227](https://www.github.com/tauri-apps/tauri/pull/1227)) on 2021-02-13
+-   The `dev` and `build` pipeline is now written in Rust.
+    -   [3e8abe3](https://www.github.com/tauri-apps/tauri/commit/3e8abe376407bb0ca8893602590ed9edf7aa71a1) feat(cli) rewrite the core CLI in Rust ([#851](https://www.github.com/tauri-apps/tauri/pull/851)) on 2021-01-30
+
 ## [0.9.4]
 
 -   `dirs` crate is unmaintained, now using `dirs-next` instead.
